@@ -1,15 +1,12 @@
 import React from 'react';
 import './Card.css';
 
-const cardContent = () => {
+const cardContent = ({ title, text, linkText }) => {
 	return (
 		<div>
-			<h3>Get started with React</h3>
-			<p className="CardText">
-				React makes it painless to create interactive UIs. Design simple views for each state in your
-				application.
-			</p>
-			<p className="CardLink">https://www.reactjs.org</p>
+			<h3>{title}</h3>
+			<p className="CardText">{text}</p>
+			<p className="CardLink">{linkText}</p>
 		</div>
 	);
 };
