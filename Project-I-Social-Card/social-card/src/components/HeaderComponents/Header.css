@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+	display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+
+.Thumbnail {
+	height: 100px;
+	max-width: 100%;
+	width: auto;
+	cursor: default;
+}

@@ -1,0 +1,21 @@
+.Footer {
+	display: flex;
+	height: 2rem;
+	max-width: 100%;
+	align-content: flex-start;
+	margin-left: 95px;
+}
+.FooterArea {
+	display: flex;
+	height: 2rem;
+	width: 4rem;
+	object-fit: contain;
+}
+
+img {
+	max-width: 50%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+	cursor: pointer;
+}
