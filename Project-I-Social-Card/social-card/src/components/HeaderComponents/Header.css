@@ -2,5 +2,12 @@
 .HeaderContainer {
 	display: flex;
 	flex-direction: row;
-	background-color: red;
+	/* background-color: red; */
+}
+
+.Thumbnail {
+	height: 100px;
+	max-width: 100%;
+	width: auto;
+	cursor: default;
 }
