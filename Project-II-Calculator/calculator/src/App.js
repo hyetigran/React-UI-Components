@@ -60,38 +60,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// {data.map(number => {
-//   return (
-//     <div>
-//       <NumberButton label={number} />
-//     </div>
-//   );
-// })}
-/* <CalculatorDisplay />
-				<ButtonContainer className="ClearButton">
-					<ActionButton className="ThreeText" text="clear" />
-					<NumberButton bgColor="RedButton" text="/" />
-				</ButtonContainer>
-				<ButtonContainer>
-					<NumberButton bgColor="NumberButton" text="7" />
-					<NumberButton bgColor="NumberButton" text="8" />
-					<NumberButton bgColor="NumberButton" text="9" />
-					<NumberButton bgColor="RedButton" text="X" />
-				</ButtonContainer>
-				<ButtonContainer>
-					<NumberButton bgColor="NumberButton" text="4" />
-					<NumberButton bgColor="NumberButton" text="5" />
-					<NumberButton bgColor="NumberButton" text="6" />
-					<NumberButton bgColor="RedButton" text="-" />
-				</ButtonContainer>
-				<ButtonContainer>
-					<NumberButton bgColor="NumberButton" text="1" />
-					<NumberButton bgColor="NumberButton" text="2" />
-					<NumberButton bgColor="NumberButton" text="3" />
-					<NumberButton bgColor="RedButton" text="+" />
-				</ButtonContainer>
-				<ButtonContainer>
-					<ActionButton className="ThreeText" text="0" />
-					<NumberButton bgColor="RedButton" text="=" />
-				</ButtonContainer> */
