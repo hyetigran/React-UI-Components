@@ -1,6 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const actionButton = props => <button className="Button">{props.label}</button>;
+const actionButton = props => (
+	<div className="ClearButton" onClick={props.handleClear}>
+		{props.children}
+	</div>
+);
 
 export default actionButton;
